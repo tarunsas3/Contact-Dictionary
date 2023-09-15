@@ -1,0 +1,150 @@
+.App {
+  font-family: "Cascadia Code";
+  background: #dde1e7;
+  height: 100%;
+}
+.App .container {
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.4509803922), 2px 2px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 20px;
+  margin: 35px auto 20px auto;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+}
+.App .container ::-webkit-scrollbar {
+  width: 0.1rem;
+}
+.App .container ::-webkit-scrollbar-thumb {
+  display: none;
+}
+.App .container .buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: 0px 45px 0px 0px;
+}
+.App .container .buttonContainer h1 {
+  font-size: 50px;
+  margin-right: 210px;
+}
+.App .container .buttonContainer button {
+  display: flex;
+  align-items: center;
+  background: green;
+  color: white;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.App .container .buttonContainer button .icon {
+  font-size: 23px;
+  color: white !important;
+  margin-right: 10px;
+  background-color: transparent;
+}
+.App .container hr {
+  width: 96%;
+}
+.App .container .displayContact {
+  padding: 0.1rem;
+  overflow: scroll;
+  height: 545px;
+}
+.App .container .displayContact table {
+  width: 95%;
+  margin: 15px auto 25px auto;
+  border-collapse: separate;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 2px solid #111;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.App .container .displayContact th, .App .container .displayContact td {
+  padding: 8px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid #111;
+}
+.App .container .displayContact th {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+.App .container .displayContact tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.App .container .displayContact .actionButtonContainer button {
+  margin: 0.31rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: green;
+  color: white;
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+.App .formContainer {
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.4509803922), 2px 2px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 20px;
+  margin: 35px auto 20px auto;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.App .formContainer ::-webkit-scrollbar {
+  width: 0.1rem;
+}
+.App .formContainer ::-webkit-scrollbar-thumb {
+  display: none;
+}
+.App .formContainer .formDisplay h3 {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .formContainer .formDisplay h3 .icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.App .formContainer .formDisplay form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  font-size: 20px;
+  font-family: "cascadia code";
+  padding: 1rem;
+}
+.App .formContainer .formDisplay form label {
+  margin: 0.75rem 0px;
+}
+.App .formContainer .formDisplay form input {
+  outline: none;
+  border: none;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+}
+.App .formContainer .formDisplay form button {
+  margin: 2rem 0rem 1rem 0rem;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bolder;
+  background: green;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
